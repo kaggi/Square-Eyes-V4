@@ -1,0 +1,50 @@
+@media only screen and (min-device-width: 300px) {
+  #logo {
+    max-width: 100px;
+  }
+
+  .fa-bars {
+    font-size: 1.5em;
+  }
+
+  .fa-user-circle {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-device-width: 600px) {
+  .fa-bars {
+    font-size: 2em;
+  }
+
+  .fa-user-circle {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-device-width: 900px) {
+  #hamburger_menu_label {
+    display: none;
+  }
+
+  .navigation_links {
+    display: flex;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+}
+
+@media only screen and (min-device-width: 1500px) {
+  #logo {
+    max-width: 200px;
+  }
+
+  .fa-user-circle {
+    font-size: 3em;
+  }
+}

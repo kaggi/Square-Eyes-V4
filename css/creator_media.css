@@ -1,0 +1,149 @@
+@media only screen and (min-device-width: 300px) {
+}
+
+@media only screen and (min-device-width: 600px) {
+  .creator_contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .creator_account_picture {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-device-width: 900px) {
+  .creator_account_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .creator_account_content_left {
+    flex: 1;
+  }
+
+  .creator_account_content_middle {
+    flex: 1;
+  }
+
+  .creator_account_content_right {
+    flex: 1;
+  }
+
+  /*Left section*/
+
+  .creator_account_content_left {
+    display: flex;
+    flex-direction: column;
+  }
+  .creator_contact_container {
+    flex: 3;
+  }
+
+  .creator_profile_edit_button {
+    flex: 1;
+  }
+
+  #creator_profile_email_label {
+    grid-area: creator_profile_email_label;
+  }
+  #creator_profile_email_address {
+    grid-area: creator_profile_email_address;
+  }
+  #creator_profile_mobile_label {
+    grid-area: creator_profile_mobile_label;
+  }
+  #creator_profile_mobile_info {
+    grid-area: creator_profile_mobile_info;
+  }
+
+  .creator_profile_contact_info {
+    max-width: 300px;
+    display: grid;
+    justify-items: start;
+    grid-template-areas:
+      "creator_profile_email_label creator_profile_email_address"
+      "creator_profile_mobile_label creator_profile_mobile_info";
+  }
+
+  .creator_profile_contact_info {
+    margin-bottom: 10px;
+  }
+
+  .creator_profile_contact_info p {
+    margin: 0;
+  }
+
+  .creator_account_picture {
+    max-width: 300px;
+  }
+
+  .creator_profile_social_media_icons {
+    max-width: 300px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .creator_profile_social_media_icons {
+    color: #5c1122;
+  }
+
+  /* Middle section */
+
+  .creator_uploads_list {
+    list-style-type: none;
+  }
+
+  #film_frame {
+    grid-area: film_frame;
+  }
+
+  #film_title {
+    grid-area: film_title;
+  }
+
+  #upload_date {
+    grid-area: upload_date;
+  }
+
+  #creator_uploads_item {
+    width: 250px;
+    gap: 5px;
+    display: grid;
+    grid-template-areas:
+      "film_frame film_title"
+      "film_frame upload_date";
+  }
+
+  #film_frame {
+    padding-bottom: 5px;
+  }
+
+  #upload_date {
+    margin: 0;
+  }
+
+  /*Right section */
+
+  .creator_account_content_right {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .creator_balance {
+    flex: 1;
+  }
+
+  .upload_new_button {
+    flex: 1;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+}

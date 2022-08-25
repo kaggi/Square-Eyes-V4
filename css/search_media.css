@@ -1,0 +1,25 @@
+@media only screen and (min-device-width: 300px) {
+}
+
+@media only screen and (min-device-width: 600px) {
+}
+
+@media only screen and (min-device-width: 900px) {
+  #search_input {
+    width: 300px;
+    padding: 5px;
+    margin: 20px;
+  }
+
+  #search_button {
+    font-size: 1.5em;
+  }
+
+  .sorting_criterium {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+}

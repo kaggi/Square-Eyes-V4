@@ -1,0 +1,46 @@
+@media only screen and (min-device-width: 300px) {
+}
+
+@media only screen and (min-device-width: 600px) {
+}
+
+@media only screen and (min-device-width: 900px) {
+  .how_to_creator,
+  .how_to_watcher {
+    display: flex;
+    gap: 50px;
+  }
+
+  .how_to_creator {
+    margin-bottom: 50px;
+  }
+
+  .for_creators,
+  .for_watchers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #for_creators_h2,
+  #for_watchers_h2 {
+    text-align: start;
+  }
+
+  .for_creators ol,
+  .for_watchers ol {
+    padding-left: 0;
+  }
+
+  .for_creators li,
+  .for_watchers li {
+    padding: 5px;
+  }
+
+  .about_cta {
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Square Eyes - a meeting place for film enthusiasts "
+    />
+    <title>Home | Square Eyes</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/b9ea43cd7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--End head-->
+
+  <!--Body-->
+  <body>
+    <!--Navigation-->
+    <nav>
+      <figure class="navigation_logo_picture">
+        <a href="index.html">
+          <img
+            src="images/Square_Eyes_Logo.png"
+            alt="Square Eyes Logo"
+            id="logo"
+          />
+        </a>
+      </figure>
+
+      <div class="navigation_buttons">
+        <label for="hamburger_menu" id="hamburger_menu_label"
+          ><i class="fa fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger_menu" />
+
+        <div class="navigation_links">
+          <ul>
+            <li><a href="index.html" id="home_link">Home</a></li>
+            <li><a href="about.html" id="about_link">About</a></li>
+            <li><a href="search.html" id="search_link">Search</a></li>
+            <li><a href="contact.html" id="contact_link">Contact</a></li>
+            <li><a href="login.html" id="login_link">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navigation_login_icon">
+        <a href="login.html" id="login_icon">
+          <i class="fas fa-user-circle"></i><br />
+        </a>
+      </div>
+    </nav>
+    <!--End navigation-->
+
+    <!--Main-->
+    <main>
+      <h1>Contact us!</h1>
+
+      <div id="successSubmittingForm">
+        <p>Thank you for contacting us!</p>
+        <p> Your message has been sent</p>
+      </div>
+
+      <div class="formContainer">
+        <form class="contactForm">
+          <div class="formField" id="emailField">
+            <label>Email</label>
+            <input name="email" id="email" />
+            <div class="errorMessage" id="emailError">
+              Please enter a valid email
+            </div>
+          </div>
+
+          <div class="formField" id="subjectField">
+            <label>Subject (min 10 characters)</label>
+            <input name="subject" id="subject" />
+          </div>
+
+          <div class="formField" id="messageField">
+            <label>Write a message</label>
+            <textarea name="message" id="message"></textarea>
+            <div class="errorMessage" id="messageError">
+              Your message is empty
+            </div>
+          </div>
+          <div class="submit_button">
+            <button id="submitButton">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!--End main-->
+
+    <!--Footer-->
+    <footer>
+      <div class="footer_contaier">
+        <div class="footer_contact_info">
+          <p>Contact info:</p>
+          <p>E-mail: post@squareeys.com</p>
+          <p>Phone: (+XX)XXXXXXXX</p>
+        </div>
+        <div class="footer_created_by">
+          <p>Created by:</p>
+          <p>X. X. Xxxxxxxxx</p>
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+    <script src="js/contact.js"></script>
+  </body>
+  <!--End body-->
+</html>

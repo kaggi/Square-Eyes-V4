@@ -1,0 +1,76 @@
+/*Navigation*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/*Logo*/
+#logo {
+  max-width: 50px;
+}
+
+.navigation_logo_picture {
+  margin: 0;
+}
+
+/*Buttons*/
+
+/*Hamburger menu*/
+
+#hamburger_menu {
+  display: none;
+}
+
+#hamburger_menu_label {
+  display: block;
+}
+
+#hamburger_menu:checked ~ .navigation_links {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-bars {
+  font-size: 1em;
+}
+
+/*Navigation links*/
+
+.navigation_links {
+  display: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.navigation_links a {
+  color: var(--sqe_nav_link_color);
+  font-size: 1.8em;
+}
+
+.current_page {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*Login icon/profile picture*/
+
+.fa-user-circle {
+  font-size: 1em;
+  color: white;
+  padding-left: 0.1em;
+}
+
+#login_icon:visited {
+  color: white;
+}

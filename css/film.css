@@ -1,0 +1,60 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.film_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+#or {
+  text-align: center;
+}
+
+.trailer_or_pay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add_comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watcher_comment_box {
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  max-width: 800px;
+}
+
+#add_comment_button_div {
+  text-align: center;
+}
+
+#add_comment_field {
+  width: 150px;
+  height: 100px;
+}

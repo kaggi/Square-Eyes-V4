@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Square Eyes - a meeting place for film enthusiasts. Join us!"
+    />
+    <title>Create account | Square Eyes</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    
+
+    <script
+      src="https://kit.fontawesome.com/b9ea43cd7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--End head-->
+
+  <!--Body-->
+  <body>
+    <!--Navigation-->
+    <nav>
+      <figure class="navigation_logo_picture">
+        <a href="index.html">
+          <img
+            src="images/Square_Eyes_Logo.png"
+            alt="Square Eyes Logo"
+            id="logo"
+          />
+        </a>
+      </figure>
+
+      <div class="navigation_buttons">
+        <label for="hamburger_menu" id="hamburger_menu_label"
+          ><i class="fa fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger_menu" />
+
+        <div class="navigation_links">
+          <ul>
+            <li><a href="index.html" id="home_link">Home</a></li>
+            <li><a href="about.html" id="about_link">About</a></li>
+            <li><a href="search.html" id="search_link">Search</a></li>
+            <li><a href="contact.html" id="contact_link">Contact</a></li>
+            <li><a href="login.html" id="login_link">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navigation_login_icon">
+        <a href="login.html" id="login_icon">
+          <i class="fas fa-user-circle"></i><br />
+        </a>
+      </div>
+    </nav>
+    <!--End navigation-->
+
+    <!--Main-->
+    <main>
+      <h1>Create account</h1>      
+
+      <section class="create_account_section">
+        <section class="radio_buttons_section">
+          <h2>Choose your role</h2>
+          <div class="radio_buttons">
+            <label for="creator_radio_button">Creator</label>
+            <input
+              type="radio"
+              name="role_radio_button"
+              value="creator"
+              id="creator_radio_button"
+            />
+            <label for="watcher_radion_button">Watcher</label>
+            <input
+              type="radio"
+              name="role_radio_button"
+              value="watcher"
+              id="watcher_radion_button"
+            />
+          </div>
+        </section>
+
+        <section class="create_account_form_section">
+          <h2>Fill in the form</h2>
+          <p id="all_fields">All fields are required</p>
+          <form class="create_account_form">
+            
+
+            <div class="formField" id="screennameField">
+              <label>Screen name</label>
+              <input type="text" name="screenname" id="screenname_input" />
+              <div class="errorMessage" id="screennameError">
+                Must be at least one charachter
+              </div>
+            </div>
+
+            <div class="formField" id="emailFfield">
+              <label>E-mail</label>
+              <input type="email" name="email" id="email_input" />
+              <div class="errorMessage" id="emailError">
+                Please enter a valid email
+              </div>
+            </div>
+
+            <div class="formField" id="passwordFfield">
+              <label>Password</label>
+              <input type="password" name="password" id="password_input" />
+              <div class="errorMessage" id="passwordError">
+                Must be at least 9 charachters
+              </div>
+            </div>
+
+            <div class="formField" id="repeatPasswordFfield">
+              <label>Repeat password</label>
+              <input
+                type="password"
+                name="repeatPassword"
+                id="repeatPassword_input"
+              />
+              <div class="errorMessage" id="repeatPasswordError">
+                Passwords do not match
+              </div>
+            </div>
+
+            <div class="create_account_button_section">
+              <input
+                type="submit"
+                name="create_account"
+                value="Create Account"
+                class="cta cta_primary"
+                id="create_account_button"
+              />
+            </div>
+
+            <p id="password_rules">
+              * Password must be at least 9 characteres. For stronger password
+              you should include both upcase and lowcase characters and digits
+            </p>
+          </form>
+        </section>
+      </section>
+    </main>
+    <!--End main-->
+
+    <!--Footer-->
+    <footer>
+      <div class="footer_contaier">
+        <div class="footer_contact_info">
+          <p>Contact info:</p>
+          <p>E-mail: post@squareeys.com</p>
+          <p>Phone: (+XX)XXXXXXXX</p>
+        </div>
+        <div class="footer_created_by">
+          <p>Created by:</p>
+          <p>X. X. Xxxxxxxxx</p>
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+    <script src="js/create_account.js"></script>
+  </body>
+  <!--End body-->
+</html>

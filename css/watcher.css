@@ -1,0 +1,36 @@
+#watcher_screenname {
+  text-align: center;
+}
+
+.watcher_account_picture {
+  width: 100%;
+}
+
+.watcher_profile_edit_button {
+  text-align: center;
+}
+
+.watcher_fav_films_list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.watcher_fav_creators_list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#fav_creator {
+  color: var(--sqe_secondary_button_color);
+}
+
+#fav_creator:visited {
+  color: var(--sqe_main_color);
+}

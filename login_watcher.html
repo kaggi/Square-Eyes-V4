@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Square Eyes - a meeting place for film enthusiasts. Log in"
+    />
+    <title>Log in | Square Eyes</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    
+
+    <script
+      src="https://kit.fontawesome.com/b9ea43cd7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--End head-->
+
+  <!--Body-->
+  <body>
+    <!--Navigation-->
+    <nav>
+      <figure class="navigation_logo_picture">
+        <a href="index.html">
+          <img
+            src="images/Square_Eyes_Logo.png"
+            alt="Square Eyes Logo"
+            id="logo"
+          />
+        </a>
+      </figure>
+
+      <div class="navigation_buttons">
+        <label for="hamburger_menu" id="hamburger_menu_label"
+          ><i class="fa fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger_menu" />
+
+        <div class="navigation_links">
+          <ul>
+            <li><a href="index.html" id="home_link">Home</a></li>
+            <li><a href="about.html" id="about_link">About</a></li>
+            <li><a href="search.html" id="search_link">Search</a></li>
+            <li><a href="contact.html" id="contact_link">Contact</a></li>
+            <li><a href="login.html" id="login_link">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navigation_login_icon">
+        <a href="login.html" id="login_icon">
+          <i class="fas fa-user-circle"></i><br />
+        </a>
+      </div>
+    </nav>
+    <!--End navigation-->
+
+    <!--Main-->
+    <main>
+        <section class="choose_role">
+            <h2>Choose your role</h2>
+            <div class="role_buttons">
+              <p>Log in as watcher or <a href="login.html" id="link_to_creator_login">click here to go to creator login</a></p>
+            </div>
+            
+        </section>
+
+        <section class="login_form_section">            
+
+          <form class="login_form">
+            
+            
+            
+              <label for="email" id="email_label">E-mail:</label>               
+              <input type="email" id="email_field" />
+              <div class="errorMessage" id="emailError">
+                  This is not a valid email
+              </div>
+              
+
+            
+              <label for="password" id="password_label">Password:</label>
+              <input type="password" id="password_field" />
+              <div class="errorMessage" id="passwordError">
+                  Must be at least 9 charachters
+              </div>
+            
+
+              <div class="create_account_button_section">
+                  <input
+                    type="submit"
+                    name="login_button"
+                    value="Log In"
+                    class="cta cta_primary"
+                    id="login_button"
+                  />
+                </div>
+          </form> <!--End login_form-->
+
+          <div class="login_button_section">
+            
+            <p id="join_us">Do not have an account? <a href="create_account.html">Join us>></a></p> 
+          </div>
+          
+    </section>
+
+    </main>
+    <!--End main-->
+
+    <!--Footer-->
+    <footer>
+      <div class="footer_contaier">
+        <div class="footer_contact_info">
+          <p>Contact info:</p>
+          <p>E-mail: post@squareeys.com</p>
+          <p>Phone: (+XX)XXXXXXXX</p>
+        </div>
+        <div class="footer_created_by">
+          <p>Created by:</p>
+          <p>X. X. Xxxxxxxxx</p>
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+    <script src="js/login_watcher.js"></script>
+  </body>
+  <!--End body-->
+</html>

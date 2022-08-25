@@ -1,0 +1,17 @@
+.role_buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#link_to_creator_login {
+    font-weight: bold;
+    color: var(--sqe_secondary_button_color);
+    text-decoration: underline;
+}
+
+#link_to_creator_login :visited {
+    color: var(--sqe_main_color);
+    text-decoration: underline;
+}

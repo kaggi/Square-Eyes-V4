@@ -1,0 +1,8 @@
+#login {
+    color: var(sqe_secondary_button_color);
+
+}
+
+#login:visited {
+    color: var(--sqe_main_color);
+}

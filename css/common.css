@@ -1,0 +1,105 @@
+/*Common*/
+
+@font-face {
+  font-family: "semplicita.medium";
+  src: url("../fonts/semplicita.medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "BaskervaldADFStd";
+  src: url("../fonts/BaskervaldADFStd.otf") format("opentype");
+}
+
+body {
+  background-color: var(--sqe_body_color);
+  min-height: 100vh;
+  min-width: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+nav,
+footer {
+  background-color: var(--sqe_main_color);
+  color: #c9b99f;
+  font-family: "semplicita.medium", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation_profile_picture {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  color: black;
+  font-family: "BaskervaldADFStd", Georgia, Times, serif;
+  font-size: 20px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta {
+  color: white;
+  font-family: "semplicita.medium", Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.cta_primary {
+  background-color: var(--sqe_main_color);
+}
+
+.cta_primary:hover {
+  color: var(--sqe_nav_link_color);
+}
+
+.cta_secondary {
+  background-color: var(--sqe_secondary_button_color);
+  color: var(--sqe_secondary_button_text_color);
+}
+
+.cta_secondary:hover {
+  background-color: var(--sqe_secondary_button_text_color);
+  color: var(--sqe_secondary_button_color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "BaskervaldADFStd", Georgia, Times, serif;
+  color: var(--sqe_main_color);
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+figure {
+  margin: 0px;
+}
+
+.errorMessage {
+  display: none;
+}
+
+.errorMessage {
+  color: red;
+  padding: 10px;
+  text-align: center;
+}

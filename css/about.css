@@ -1,0 +1,30 @@
+.about_page_main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.creator_picture,
+.watcher_picture {
+  width: 100%;
+}
+
+.how_to_creator_text,
+.how_to_watcher_text {
+  padding: 5px;
+  margin-top: 0;
+}
+
+.about_cta {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1em;
+}

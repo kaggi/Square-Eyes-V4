@@ -1,0 +1,5 @@
+.creator_profile_content {
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}

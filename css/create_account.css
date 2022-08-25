@@ -1,0 +1,50 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.create_account_section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.radio_buttons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#all_fields {
+  text-align: center;
+}
+
+#successSubmittingForm {
+  display: none;
+}
+
+.formField {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.create_account_button_section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.cta {
+  font-size: 1em;
+}
+
+#password_rules {
+  margin-top: 30px;
+  color: red;
+  font-size: 15px;
+}
+
+#account_created {
+  display: none;
+}

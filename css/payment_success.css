@@ -1,0 +1,11 @@
+#paid_film_link,
+#paid_film_link:visited {
+  color: var(--sqe_secondary_button_color);
+  text-decoration: underline;
+  text-align: center;
+}
+
+#payment_success_p {
+  text-align: center;
+  
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Square Eyes - a meeting place for film enthusiasts "
+    />
+    <title>Pay for wathcing | Square Eyes</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/payment.css" rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/b9ea43cd7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!--End head-->
+
+  <!--Body-->
+  <body>
+    <!--Navigation-->
+    <nav>
+      <figure class="navigation_logo_picture">
+        <a href="index.html">
+          <img
+            src="images/Square_Eyes_Logo.png"
+            alt="Square Eyes Logo"
+            id="logo"
+          />
+        </a>
+      </figure>
+
+      <div class="navigation_buttons">
+        <label for="hamburger_menu" id="hamburger_menu_label"
+          ><i class="fa fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger_menu" />
+
+        <div class="navigation_links">
+          <ul>
+            <li><a href="index.html" id="home_link">Home</a></li>
+            <li><a href="about.html" id="about_link">About</a></li>
+            <li><a href="search.html" id="search_link">Search</a></li>
+            <li><a href="contact.html" id="contact_link">Contact</a></li>
+            <li><a href="login.html" id="login_link">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navigation_login_icon">
+        <a href="watcher_account.html">
+          <img
+            src="images/watcher_acc_picture_small.jpg"
+            alt="Profile picture"
+            class="navigation_profile_picture"
+          />
+        </a>
+      </div>
+    </nav>
+    <!--End navigation-->
+
+    <!--Main-->
+    <main>
+      <h1>Pay with credit card</h1>
+      <form class="credit_card_form">
+
+        <div class="fields">
+          <div class="formField" id="cardholder_name">
+            <label>Owner</label>
+            <input type="text" name="ownerName" id="owner_name_input" />
+            <div class="errorMessage" id="ownerNameError">Can not be empty</div>
+          </div>
+
+          <div class="formField" id="cvv">
+            <label>CVV</label>
+            <input type="text" name="cvv" id="cvv_input" />
+            <div class="errorMessage" id="cvvError">Must be 3 or 4 digits</div>
+          </div>
+
+          <div class="formField" id="card_number">
+            <label>Card Number</label>
+            <input type="text" name="card_number" id="card_number_input" />
+            <div class="errorMessage" id="cardNumberError">
+              Must be between 13 and 19 digits
+            </div>
+          </div>
+
+          <div class="formField" id="expiration_date">
+            <label>Expiration Date</label>
+            <select name="month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="4">April</option>
+              <option value="5">May</option>
+              <option value="6">June</option>
+              <option value="7">July</option>
+              <option value="8">August</option>
+              <option value="9">September</option>
+              <option value="10">October</option>
+              <option value="11">November</option>
+              <option value="12">December</option>
+            </select>
+            <select name="year">
+              <option value="22">2022</option>
+              <option value="23">2023</option>
+              <option value="24">2024</option>
+              <option value="25">2025</option>
+              <option value="26">2026</option>
+              <option value="27">2027</option>
+              <option value="28">2028</option>
+              <option value="29">2029</option>
+              <option value="30">2030</option>
+              <option value="31">2031</option>
+              <option value="32">2032</option>
+            </select>
+          </div>
+        </div>
+        <div class="payment_button_section">
+          <input
+            type="submit"
+            name="payment_button"
+            value="Pay"
+            class="cta cta_primary"
+            id="payment_button"
+          />
+        </div>
+      </form>
+    </main>
+    <!--End main-->
+
+    <!--Footer-->
+    <footer>
+      <div class="footer_contaier">
+        <div class="footer_contact_info">
+          <p>Contact info:</p>
+          <p>E-mail: post@squareeys.com</p>
+          <p>Phone: (+XX)XXXXXXXX</p>
+        </div>
+        <div class="footer_created_by">
+          <p>Created by:</p>
+          <p>X. X. Xxxxxxxxx</p>
+        </div>
+      </div>
+    </footer>
+    <!--End footer-->
+    <script src="js/payment.js"></script>
+  </body>
+  <!--End body-->
+</html>

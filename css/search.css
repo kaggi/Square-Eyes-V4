@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+}
+
+.browse_collection_links {
+  padding: 15px;
+  margin: 10px;
+}
+
+.browse_collection_letter {
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--sqe_secondary_button_color);
+}
+
+.browse_collection_letter:visited {
+  color: var(-sqe_secondary_button_color);
+}
+
+#search_input {
+  width: 180px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.search_field_and_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sorting_criterium {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.filmlist_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#search_button {
+  color: black;
+  margin-left: 5px;
+}
+
+#search_button:visited {
+  color: black;
+}
+
+.search_results_section {
+  display: none;
+}
