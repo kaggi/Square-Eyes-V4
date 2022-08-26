@@ -50,14 +50,38 @@ async function getFreeFilms() {
 
 function showLatestFilms( array ) {
 
-    for(let i = 0; i < array.length; i++) {
+    displayLatestFilms.innerHTML = "";
 
+    for(let i = 0; i < array.length; i++) {        
         
-
         console.log( array[i].id );   
         console.log( array[i].images[0].src );
+        console.log( "Alt text " + array[i].images[0].name)
         console.log( array[i].name );
         console.log( "By " + array[i].attributes[1].options[0] );
+
+        let filmTitle = array[i].name;
+        let filmPosterUrl = array[i].images[0].src;
+        let filmPosterAltText = array[i].images[0].name;
+        let filmCreatorScreenname = array[i].attributes[1].options[0];
+
+        displayLatestFilms.innerHTML += `
+        <!--film item-->
+
+        <div class="film_item">
+         
+         <div class="film_item_image">  
+          <img src=${filmPosterUrl} alt=${filmPosterAltText} />
+         </div>
+       
+         <div class="film_item_links">
+          <a href="film.html" class="list_link" id="film_title">${filmTitle}</a>
+          <a href="creator_public.html" id="film_creator">By: ${filmCreatorScreenname}></a>
+         </div>
+        
+        </div>
+       
+       <!--End film item-->`;
     }
  
 
