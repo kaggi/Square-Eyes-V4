@@ -1,7 +1,7 @@
 let homeLink = document.querySelector("#home_link");
 homeLink.classList.add("current_page");
 
-const squareEyesUrl = "http://squareeyes.lolalohne.com/wp-json/wc/store/products";
+const squareEyesUrl = "https://squareeyes.lolalohne.com/wp-json/wc/store/products";
 
 
 
