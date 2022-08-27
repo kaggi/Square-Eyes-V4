@@ -2,6 +2,10 @@ h1 {
   text-align: center;
 }
 
+.browse_collection_links_container {
+  display: none;
+}
+
 .browse_collection_links {
   padding: 15px;
   margin: 10px;
@@ -31,18 +35,27 @@ h1 {
 }
 
 .sorting_criterium {
-  display: flex;
+  /*display: flex;
+  
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  */
+  display: none;
+}
+
+.display_collection_section {
+  margin-top: 15px;
 }
 
 .filmlist_container {
   display: flex;
   flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
+  justify-self: flex-start;
+  
 }
 
 #search_button {
@@ -56,4 +69,24 @@ h1 {
 
 .search_results_section {
   display: none;
+}
+
+
+
+.film_item {
+  margin-bottom: 10px; 
+  display: flex; 
+  flex-direction: column;
+}
+
+/*
+.film_item img {
+  height: 100px;
+  width: 150px;
+}
+*/
+
+.film_item_links {
+  display: flex;
+  flex-direction: column;
 }

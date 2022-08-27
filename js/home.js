@@ -84,9 +84,7 @@ function showLatestFilms( array ) {
         </div>
        
        <!--End film item-->`;
-    }
- 
-
+    }    
 }
 
 function showFreeFilms ( array ) {
