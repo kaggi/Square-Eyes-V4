@@ -90,6 +90,7 @@ function displayFilms( array ) {
       let filmPosterUrl = array[i].images[0].src;
       let filmPosterAltText = array[i].images[0].name;
       let filmCreatorScreenname = array[i].attributes[1].options[0];
+      let filmId = array[i].id;
 
       displayCollection.innerHTML += `
       <!--film item-->
@@ -101,7 +102,7 @@ function displayFilms( array ) {
        </div>
      
        <div class="film_item_links">
-        <a href="film.html" class="list_link" id="film_title">${filmTitle}</a>
+        <a href="film.html?id=${filmId}" class="list_link" id="film_title">${filmTitle}</a>
         <a href="creator_public.html" id="film_creator">By: ${filmCreatorScreenname}></a>
        </div>
       

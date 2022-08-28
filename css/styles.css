@@ -73,6 +73,9 @@
 /*Payment success*/
 @import "./payment_success.css";
 
+/*Paid film*/
+@import "./paid_film.css";
+
 /*Contact page*/
 
 @import "./contact.css";

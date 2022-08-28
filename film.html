@@ -9,7 +9,7 @@
       name="description"
       content="Square Eyes - a meeting place for film enthusiasts "
     />
-    <title>Title | Square Eyes</title>
+    <title>Film details | Square Eyes</title>
 
     <link href="css/styles.css" rel="stylesheet" />
 
@@ -65,141 +65,40 @@
 
     <!--Main-->
     <main>
-      <main class="film_page">
-        <h1>Title</h1>
 
-        <div class="video_page_container">
-          <div class="video_page_container_left">
-            <div class="video_and_about">
-              <section class="video_section">
-                <video src="video/video.mp4" controls class="video">
-                  Title
-                </video>
-                <div class="text_under_video">
-                  <p>Add to favourits <i class="far fa-heart"></i></p>
-                  <p>Created by: Creator</p>
-                </div>
+        <container class="film_page">
 
-                <section class="trailer_or_pay" id="trailer_pay_options">
-                  <h3>Watch trailer on this page</h3>
-                  <p id="or">or</p>
-                  <a
-                    href="payment_summary.html"
-                    class="cta cta_secondary"
-                    id="pay"
-                    >Pay Per View</a
-                  >
-                </section>
-                <!--End trailer_or_pay-->
-              </section>
+            <p class="error_message">An error occured getting film</p>
+            
 
-              <!--End video_section-->
+            <container class="film_and_info">
+                <p>Film page loading, please wait</p>                
 
-              <section class="about_film">
-                <h2>About this film</h2>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus eligendi sapiente architecto laborum non tempore beatae
-                  itaque voluptatem totam, asperiores a quas iste accusantium
-                  nisi laboriosam omnis modi id qui aut ipsam quidem officiis
-                  exercitationem debitis. Quasi veritatis recusandae doloribus
-                  nulla aspernatur dolores pariatur repudiandae, similique
-                  obcaecati. Facere, minima harum.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, nobis excepturi? Optio delectus iusto nostrum
-                  numquam neque quisquam tempore ea, pariatur quaerat, explicabo
-                  amet voluptas voluptatem blanditiis quos vero assumenda libero
-                  facilis sit! Eum hic ad est, cum adipisci, cumque cupiditate
-                  placeat dolores ex beatae labore odit necessitatibus ipsa
-                  voluptates?
-                </p>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Natus eligendi sapiente architecto laborum non tempore beatae
-                  itaque voluptatem totam, asperiores a quas iste accusantium
-                  nisi laboriosam omnis modi id qui aut ipsam quidem officiis
-                  exercitationem debitis. Quasi veritatis recusandae doloribus
-                  nulla aspernatur dolores pariatur repudiandae, similique
-                  obcaecati. Facere, minima harum.
-                </p>
-              </section>
-              <!--End about_film-->
-            </div>
-            <!--End video_and_about-->
-          </div>
-          <!--End video_page_container_left-->
+            </container>
+            
 
-          <div class="video_page_container_right">
-            <h2>Last comments</h2>
-            <section class="comments">
-              <div class="watcher_comment_box">
-                <p id="watcher_screenname">By: Watcher1</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facilis ut nulla, aliquid totam iure accusamus soluta repellat
-                  maxime officiis obcaecati omnis eos saepe incidunt? Explicabo
-                  nihil debitis placeat voluptate reiciendis necessitatibus
-                  voluptatibus minima autem ducimus accusamus sint omnis labore
-                  modi sapiente cum error, excepturi at.
-                </p>
-              </div>
+        </container>
+        
 
-              <div class="watcher_comment_box">
-                <p id="watcher_screenname">By: Watcher2</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facilis ut nulla, aliquid totam iure accusamus soluta repellat
-                  maxime officiis obcaecati omnis eos saepe incidunt? Explicabo
-                  nihil debitis placeat voluptate reiciendis necessitatibus
-                  voluptatibus minima autem ducimus accusamus sint omnis labore
-                  modi sapiente cum error, excepturi at. Aspernatur, officia
-                  eveniet similique culpa excepturi exercitationem qui facilis
-                  architecto totam!
-                </p>
-              </div>
-            </section>
-            <!--End comments-->
-
-            <form class="add_comment">
-              <h3>Add comment</h3>
-              <textarea
-                name="watcher_comment_field"
-                id="add_comment_field"
-              ></textarea>
-              <div class="errorMessage" id="screennameError">
-                Must be at least four charachters
-              </div>
-              <div id="add_comment_button_div">
-                <input type="submit" name="add_comment_button" value="Submit" />
-              </div>
-            </form>
-            <!--End add_comment-->
-          </div>
-          <!--End video_page_container_right-->
-        </div>
-        <!--End video_page_container-->
-      </main>
     </main>
     <!--End main-->
 
     <!--Footer-->
     <footer>
-      <div class="footer_contaier">
-        <div class="footer_contact_info">
-          <p>Contact info:</p>
-          <p>E-mail: post@squareeys.com</p>
-          <p>Phone: (+XX)XXXXXXXX</p>
+        <div class="footer_contaier">
+          <div class="footer_contact_info">
+            <p>Contact info:</p>
+            <p>E-mail: post@squareeys.com</p>
+            <p>Phone: (+XX)XXXXXXXX</p>
+          </div>
+          <div class="footer_created_by">
+            <p>Created by:</p>
+            <p>X. X. Xxxxxxxxx</p>
+          </div>
         </div>
-        <div class="footer_created_by">
-          <p>Created by:</p>
-          <p>X. X. Xxxxxxxxx</p>
-        </div>
-      </div>
-    </footer>
-    <!--End footer-->
-    <script src="js/film.js"></script>
+      </footer>
+      <!--End footer-->
+      <script src="js/film.js"></script>
   </body>
   <!--End body-->
 </html>
