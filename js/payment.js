@@ -8,6 +8,22 @@ const ownerNameError = document.querySelector("#ownerNameError");
 const cvvError = document.querySelector("#cvvError");
 const cardNumberError = document.querySelector("#cardNumberError");
 
+const queryString = document.location.search;
+const params = new URLSearchParams(queryString);
+let filmId = params.get("id");
+let paidFilmPageLink = `paid_film.html?id=${filmId}`;
+
+
+const paymentButton = document.querySelector(".payment_button_section");
+
+paymentButton.innerHTML = ` <input
+                                type="submit"
+                                name="payment_button"
+                                value="Pay"
+                                class="cta cta_primary"
+                                id="payment_button"/>`;
+
+
 let ownerNameOK = false;
 let cvvOK = false;
 let cardNumberOK = false;
@@ -41,7 +57,7 @@ function checkForm(event) {
     }
 
     if(ownerNameOK && cvvOK && cardNumberOK) {
-        window.location.href = "payment_success.html";
+        window.location.href = paidFilmPageLink;
     }
 
 }

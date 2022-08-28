@@ -3,9 +3,12 @@ const filmTitle = document.querySelector("#title");
 const filmCreator = document.querySelector("#creator");
 const toPay = document.querySelector("#sum");
 const freeFilm = document.querySelector(".topayment");
+const toPaymentLink = document.querySelector(".topayment");
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
+
+
 
 let filmName = params.get("title");
 let screenName = params.get("creator");
@@ -21,6 +24,8 @@ if(price != 0) {
     filmTitle.innerHTML = filmName;
     filmCreator.innerHTML = screenName;
     toPay.innerHTML = "NOK " + price;
+    toPaymentLink.innerHTML = `<a href="payment.html?id=${filmId}" class="cta cta_primary" id="topayment_button">To Payment</a>
+                              `
 }
 
 else {

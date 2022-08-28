@@ -57,8 +57,9 @@ function showFilm() {
     film.innerHTML = `
             <h1>Enjoy the film</h1>
             <h2>${filmTitle}</h2>
-            <video src="${fullFilmURL}" controls class="video">            
-            </video> `
+            <div id="video">
+                <video src="${fullFilmURL}" controls class="video_full"></video> 
+            </div>`
 
 }
 
