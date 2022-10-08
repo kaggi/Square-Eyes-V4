@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/6870389/194706366-49fa9c3e-7402-4b0c-8867-d79b4b5ae45e.png)
 
 
-A simple overview of the use/purpose of the project.
+Square Eyes is a streaming service made to bring together those who are passionate about creating films and those who are passionate about watching high quality films.
 
 ## Description
 
