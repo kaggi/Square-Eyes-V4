@@ -11,13 +11,19 @@ Intension back Squqre Eyes is a meeting point where independent filmmakers will 
 
 Creators can:
 
-- List item 1
-- List item 2
-- List item 3
+- Upload films
+- Communicate with watchers
+- Watch films created by other creators
 
 Watchers can:
+- Watch full films on pay per view basis
+- Comment films
 
 Unregistered users can:
+
+- Watch free examples
+- Watch film trailers
+- Create an account as watcher or as creator
 
 
 ## Built With
