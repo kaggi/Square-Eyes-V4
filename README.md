@@ -39,7 +39,7 @@ Unregistered users can:
 Front End
 Clone the repo:
 1.Download zip-file or use GitHub Desktop: https://desktop.github.com/
-2. Deploy site to your 
+2. Deploy site on your web host
 
 Back End:
 1. Create WordPress installation 
