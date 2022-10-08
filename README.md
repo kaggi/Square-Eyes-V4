@@ -1,25 +1,30 @@
 # Square-Eyes-V4
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://user-images.githubusercontent.com/6870389/194706366-49fa9c3e-7402-4b0c-8867-d79b4b5ae45e.png)
+
 
 A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Intension back Squqre Eyes is a meeting point where independent filmmakers will be able to show their films for a pay-per-view, and film enthusiasts will have access to new products that might not be available in other ways. This a web streaming service, which will give the creators opportunity to meet publicum and start earning money without large investments in advertising, as well as it will give an opportunity for viewers to satisfy their curiosity about new and alternative trends in film industry, discover new names and support film makers they like.
 
-You can add some bullet points if you'd like to:
+Creators can:
 
 - List item 1
 - List item 2
 - List item 3
 
+Watchers can:
+
+Unregistered users can:
+
+
 ## Built With
-
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
+- JavaScript
+- WordPress as Back End
 
 ## Getting Started
 
