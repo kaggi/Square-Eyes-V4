@@ -37,7 +37,9 @@ Unregistered users can:
 ### Installing
 
 Front End
+
 Clone the repo:
+
 1. Download zip-file or use GitHub Desktop: https://desktop.github.com/
 2. Deploy site on your web host
 
