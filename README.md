@@ -36,21 +36,19 @@ Unregistered users can:
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
+Front End
 Clone the repo:
-Download zip-file or use GitHub Desctop: 
+Download zip-file or use GitHub Desctop: https://desktop.github.com/
+
+Back End:
+1. Create WordPress installation 
+2. Make WP installation headless
+ 
 
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+Change links in JS files to point to your own WP installation. 
 
 ## Contact
 
