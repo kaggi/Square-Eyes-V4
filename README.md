@@ -68,8 +68,8 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Facebook page](https://www.facebook.com/lola.lohne))
+[My Facebook page](https://www.facebook.com/lola.lohne)
 
-[My email](lola.lohne@gmail.com)
+My e-mail: lola.lohne@gmail.com
 
 
