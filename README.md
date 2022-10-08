@@ -38,7 +38,8 @@ Unregistered users can:
 
 Front End
 Clone the repo:
-Download zip-file or use GitHub Desctop: https://desktop.github.com/
+1.Download zip-file or use GitHub Desktop: https://desktop.github.com/
+2. Deploy site to your 
 
 Back End:
 1. Create WordPress installation 
